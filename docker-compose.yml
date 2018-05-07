@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  taskmanager:
+    image: taskmanager
+    build:
+      context: .
+      dockerfile: TaskManager\Dockerfile
